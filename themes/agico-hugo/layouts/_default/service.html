@@ -1,0 +1,85 @@
+{{ define "main" }}
+
+{{ partial "components/services.html" . }}
+
+{{"<!-- about -->"| safeHTML}}
+{{ with .Params.about }}
+{{ if .enable }}
+{{ range $i,$p := .about_item }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row align-items-center">
+      {{ if not (modBool $i 2)}}
+      <div class="col-lg-6 col-md-5 text-center text-md-left mb-4 mb-md-0">
+        <div data-aos="fade-right">
+          {{ partial "image.html" (dict "Src" .image "Alt" "about image" ) }}
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-7  text-md-left">
+        <p class="subtitle" data-aos="fade-left">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-left" data-aos-delay="100">{{ .title }}</h2>
+        <p class="mb-4" data-aos="fade-left" data-aos-delay="150">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary" data-aos="fade-left" data-aos-delay="500">{{ .label }} <span class="screen-reader-text">details</span></a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="col-lg-6 col-md-7 text-md-left order-md-1 order-2">
+        <p class="subtitle" data-aos="fade-right">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-right" data-aos-delay="100">{{ .title }}</h2>
+        <p class="mb-4" data-aos="fade-right" data-aos-delay="150">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary" data-aos="fade-right" data-aos-delay="200">{{
+          .label }} <span class="screen-reader-text">details</span></a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-lg-6 col-md-5 text-center text-md-left order-1 order-md-2 mb-4 mb-md-0">
+        <div data-aos="fade-left">
+          {{ partial "image.html" (dict "Src" .image "Alt" "about-image" ) }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{"<!-- about -->"| safeHTML}}
+
+{{"<!-- features -->"| safeHTML}}
+{{ if .Params.feature.enable }}
+{{ with .Params.feature }}
+<section class="bg-light section section-lg-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p class="subtitle" data-aos="fade-up">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">{{ .title }}</h2>
+      </div>
+      {{ range $index, $element:= .feature_item }}
+      {{ $delay := mul $index 100}}
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-20" data-aos="fade-up" data-aos-delay="{{$delay}}">
+        <div class="text-center shadow card py-3 border-0 rounded-sm">
+          <div class="card-body">
+            <i class="icon-lg icon-bg-square mb-3 d-inline-block icon-{{.icon_color}}">
+              <i class="{{ .icon }}"></i>
+            </i>
+            <h4 class="mb-3">{{ .title }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- /features -->"| safeHTML}}
+
+{{ end }}

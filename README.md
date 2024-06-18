@@ -1,2 +1,2 @@
-# corp-website-com
-Corporate Website for merusphere.com
+# merusphere-corp-website
+MeruSphere Corporate Website
