@@ -1,0 +1,11 @@
+################################### English language #####################################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "MeruSphere enhances everyday lives by providing software that digitalizes to improve business growth with latest tools and technologies."
+# copyright
+copyright = "Copyright MeruSphere Technologies Private Limited"

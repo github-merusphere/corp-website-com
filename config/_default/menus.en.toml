@@ -1,0 +1,104 @@
+############# English navigation ##############
+# main menu    
+[[main]]
+name = "About"
+URL = "about/"
+weight = 30
+  
+[[main]]
+weight = 10
+name = "Services"
+hasChildren = true
+
+  [[main]]
+  parent = "Services"
+  name = "Application Development"
+  URL = "appdev/"
+
+  [[main]]
+  parent = "Services"
+  name = "Blockchain Implementation"
+  URL = "bcimpl/"
+  
+  [[main]]
+  parent = "Services"
+  name = "DevOps"
+  URL = "devops/"
+
+  [[main]]
+  parent = "Services"
+  name = "Application Support"
+  URL = "appsupport/"
+
+  [[main]]
+  parent = "Services"
+  name = "Cloud Infra Management"
+  URL = "cloudinfra/"
+
+  [[main]]
+  parent = "Services"
+  name = "Quality Testing & Automation"
+  URL = "qta/"
+
+[[main]]
+weight = 20
+name = "Products"
+hasChildren = true
+
+  [[main]]
+  parent = "Products"
+  name = "Block-Chain App Development kit"
+  URL = "bcsdk/"
+  
+  [[main]]
+  parent = "Products"
+  name = "Java Web App Development kit"
+  URL = "jwsdk/"
+ 
+  [[main]]
+  parent = "Products"
+  name = "Flutter App Development kit"
+  URL = "flsdk/"
+ 
+#[[main]]
+#name = "Blog"
+#URL = "blog/"
+#weight = 50
+
+[[main]]
+name = "Contact"
+URL = "contact/"
+weight = 40
+
+[[footer]]
+name = "Contact us"
+URL = "contact/"
+
+[[footer]]
+name = "Terms and Conditions"
+URL = "tnc/"
+
+[[footer]]
+name = "Privacy Policy"
+URL = "pp/"
+
+[[footer]]
+name = "Data Policy"
+URL = "dp/"
+
+[[footer]]
+name = "About"
+URL = "about/"
+
+[[footer]]
+name = "GDPR"
+URL = "gdprdata/"
+
+[[footer]]
+name = "Payment Refund"
+URL = "refundpolicy/"
+
+[[footer]]
+name = "Shipping and Delivery"
+URL = "shipdelivery/"
+
