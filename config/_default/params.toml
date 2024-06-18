@@ -123,12 +123,12 @@ button = "I Accept all"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://www.facebook.com/profile.php?id=100088410132168"
+#link = "https://www.facebook.com/profile.php?id=100088410132168"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://twitter.com/home"
+#link = "https://twitter.com/home"
 
 [[social]]
 title = "github"
