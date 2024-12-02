@@ -59,6 +59,11 @@ hasChildren = true
   parent = "Products"
   name = "Flutter App Development kit"
   URL = "flsdk/"
+  
+  [[main]]
+  parent = "Products"
+  name = "MsgCloud - Bulk Whatsapp"
+  URL = "msgcloud/"
  
 #[[main]]
 #name = "Blog"
