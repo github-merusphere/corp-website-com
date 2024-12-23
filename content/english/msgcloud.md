@@ -22,9 +22,9 @@ about:
       
       Expand your WhatsApp use cases beyond transactional and support scenarios. Your business can now send marketing and sales messages on the world’s most popular chat app. Be where your customers are and promote and sell your products via WhatsApp." 
       button:
-        enable : false
-        label : "Explore Our Services"
-        link : "about/"
+        enable : true
+        label : "Explore the Service"
+        link : "https://msgcloud.in"
         
     # about item loop
     - image : "images/msgcloud/bwa2.png"
