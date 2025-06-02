@@ -1,10 +1,10 @@
 ############# English navigation ##############
-# main menu    
+# main menu
 [[main]]
 name = "About"
 URL = "about/"
 weight = 30
-  
+
 [[main]]
 weight = 10
 name = "Services"
@@ -19,7 +19,7 @@ hasChildren = true
   parent = "Services"
   name = "Blockchain Implementation"
   URL = "bcimpl/"
-  
+
   [[main]]
   parent = "Services"
   name = "DevOps"
@@ -49,22 +49,28 @@ hasChildren = true
   parent = "Products"
   name = "Block-Chain App Development kit"
   URL = "bcsdk/"
-  
+
   [[main]]
   parent = "Products"
   name = "Java Web App Development kit"
   URL = "jwsdk/"
- 
+
   [[main]]
   parent = "Products"
   name = "Flutter App Development kit"
   URL = "flsdk/"
-  
+
   [[main]]
   parent = "Products"
   name = "MsgCloud - Bulk Whatsapp"
   URL = "msgcloud/"
- 
+
+  [[main]]
+  parent = "Products"
+  name = "EmpowrX - Skill Empoweremet Platform"
+  url = "empowrx/"
+
+
 #[[main]]
 #name = "Blog"
 #URL = "blog/"
