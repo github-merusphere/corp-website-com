@@ -7,69 +7,58 @@ weight = 30
 
 [[main]]
 weight = 10
-name = "Services"
+name = "IT Services"
 hasChildren = true
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Application Development"
   URL = "appdev/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Blockchain Implementation"
   URL = "bcimpl/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "DevOps"
   URL = "devops/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Application Support"
   URL = "appsupport/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Cloud Infra Management"
   URL = "cloudinfra/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Quality Testing & Automation"
   URL = "qta/"
-
+  
+  [[main]]
+  parent = "IT Services"
+  name = "MsgCloud - Bulk Whatsapp"
+  URL = "msgcloud/"  
+  
 [[main]]
 weight = 20
-name = "Products"
+name = "Bio Services"
 hasChildren = true
 
   [[main]]
-  parent = "Products"
-  name = "Block-Chain App Development kit"
-  URL = "bcsdk/"
+  parent = "Bio Services"
+  name = "Ecolly MicrobialX Compost"
+  URL = "ecollymxc/"
 
   [[main]]
-  parent = "Products"
-  name = "Java Web App Development kit"
-  URL = "jwsdk/"
-
-  [[main]]
-  parent = "Products"
-  name = "Flutter App Development kit"
-  URL = "flsdk/"
-
-  [[main]]
-  parent = "Products"
-  name = "MsgCloud - Bulk Whatsapp"
-  URL = "msgcloud/"
-
-  [[main]]
-  parent = "Products"
-  name = "EmpowrX - Skill Empoweremet Platform"
-  url = "empowrx/"
-
+  parent = "Bio Services"
+  name = "Ecolly MicrobialX Purifier"
+  URL = "ecollymxp/"
 
 #[[main]]
 #name = "Blog"
