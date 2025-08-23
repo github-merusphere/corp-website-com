@@ -3,7 +3,7 @@
 banner:
   enable : true
   bg_image : "images/background/banner.png"
-  title : "We are @ Stall i44, Hall-4, Eco Sustain Expo, Hitex, Hyderabad. 22,23,24 AUG 2025"
+  title : "We are @ Stall i44, Hall-4, Eco Sustain Expo, Hitex, Hyderabad."
   watermark : "Digitalization"
   content : "MeruSphere enhances everyday lives by providing software that digitalizes to improve business growth with latest tools and technologies."
   image : "images/expo/expo2025.jpeg"
