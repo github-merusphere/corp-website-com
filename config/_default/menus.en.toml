@@ -43,7 +43,17 @@ hasChildren = true
   [[main]]
   parent = "IT Services"
   name = "MsgCloud - Bulk Whatsapp"
-  URL = "msgcloud/"  
+  URL = "msgcloud/"
+  
+  [[main]]
+  parent = "IT Services"
+  name = "Stock Market Trading Platform"
+  URL = "stmp/"  
+  
+  [[main]]
+  parent = "IT Services"
+  name = "IoT Life Cycle Management"
+  URL = "iotmon/"  
   
 [[main]]
 weight = 20
@@ -59,7 +69,17 @@ hasChildren = true
   parent = "Bio Services"
   name = "Ecolly MicrobialX Purifier"
   URL = "ecollymxp/"
+  
+[[main]]
+weight = 21
+name = "Green Energy"
+hasChildren = true
 
+  [[main]]
+  parent = "Green Energy"
+  name = "Portable Power Generator"
+  URL = "gexfinite/"
+ 
 #[[main]]
 #name = "Blog"
 #URL = "blog/"
