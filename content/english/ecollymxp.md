@@ -1,11 +1,11 @@
 ---
 title: "Ecolly MicrobialX Purifier"
 # watermark text
-watermark: "Message Cloud"
+watermark: "Purifier"
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
-description : "Aquaculture success lives and dies by water quality. AquaMon pairs a rugged, solar-powered monitoring buoy (device) with an Al-ready dashboard (solution) to continuously track critical pond parameters, issue instant alerts, and generate actionable recommendations for farmers. The system is designed for easy single-person deployment, reliable long-range telemetry, and low-touchmaintenance"
+description : "Purification of water in STPs, ETPs, and Aquaculture is essential to remove pollutants, protect health, improve fish growth, and ensure higher profits."
 
 layout : "service"
 draft : false
@@ -15,43 +15,43 @@ about:
   enable : true
   about_item:
     # about item loop
-    - image : "images/msgcloud/bwa1.png"
+    - image : "images/msgcloud/mxp1.png"
       subtitle : "Explore"
-      title : "Whatsapp Bulk Messages"
-      content : "Bulk Broadcast WhatsApp Messages refers to the capability of sending a large number of messages simultaneously to multiple recipients on WhatsApp. This feature is commonly used by businesses and organizations to reach a wide audience. <br><br>
-      
-      Expand your WhatsApp use cases beyond transactional and support scenarios. Your business can now send marketing and sales messages on the world’s most popular chat app. Be where your customers are and promote and sell your products via WhatsApp." 
+      title : "Water Purification"
+      content : "Purification of water plays a vital role in Sewage Treatment Plants (STPs), Effluent Treatment Plants (ETPs), and Aquaculture systems. In STPs and ETPs, proper purification ensures removal of harmful contaminants, toxic chemicals, and pathogens, thereby preventing environmental pollution and safeguarding public health. <br><br>In aquaculture, clean and treated water is directly linked to healthier aquatic life, reduced disease outbreaks, and faster growth rates of fish and shrimp. This not only minimizes operational losses but also enhances yield quality, ultimately leading to better productivity and higher profits. Thus, effective water purification is both an environmental necessity and an economic advantage."
       button:
-        enable : true
+        enable : false
         label : "Explore the Service"
         link : "https://msgcloud.in"
         
     # about item loop
-    - image : "images/msgcloud/bwa2.png"
-      subtitle : "For you"
-      title : "Send the right promotions to the right people"
-      content : "With WhatsApp promotional messages, your brand can create unique and creative marketing campaigns that fit your eCommerce needs. Connect with customers on WhatsApp and offer convenient and easily accessible discounts, coupons, and product details in a single conversation.
-
-
-
-Save customers the time and effort of switching between WhatsApp to an app or external website. Now customers can shop on WhatsApp, explore product details, inquire about promotional offers, and order products within one conversation."
+    - image : "images/msgcloud/mxp2.png"
+      subtitle : "Use case 01 : STPs and ETPs"
+      title : "Treating Water in STPs and ETPs"
+      content : "Water purification in Sewage Treatment Plants (STPs) and Effluent Treatment Plants (ETPs) is crucial to safeguard the environment, public health, and industrial sustainability. STPs ensure that domestic wastewater is treated to remove organic matter, pathogens, and harmful pollutants before being released or reused, thereby preventing waterborne diseases and protecting natural water bodies. <br><br>Similarly, ETPs treat industrial effluents by removing toxic chemicals, heavy metals, and hazardous substances, ensuring compliance with environmental regulations and minimizing ecological damage. Effective purification in STPs and ETPs not only conserves water resources but also promotes safe reuse and sustainable development."
       button:
         enable : false
         label : "Explore Our Services"
         link : "about/"  
         
      # about item loop
-    - image : "images/msgcloud/bwa3.png"
-      subtitle : "For you"
-      title : "Go farther with a WhatsApp chatbot"
-      content : "Take your promotional messages to the next level by allowing customers to interact with an always-on chatbot. By creating a shopping assistant on WhatsApp, you can guide customers through their entire shopping journey, promote products and increase sales all at lowered costs. 
-      
-      
-      When a customer needs more detailed help or would like to speak to an agent, the intelligent chatbot can quickly transfer them to an employee who will take over the conversation where it was left off. There’s no need for repeating issues or questions as the chatbot and live agent are in sync and offer elevated support."
+    - image : "images/msgcloud/mxp3.png"
+      subtitle : "Use case 02 : Aqua Culture"
+      title : "Importance of Water Purification in Aqua Culture"
+      content : "In aquaculture, water purification is the key to maintaining healthy aquatic life, improving survival rates, and maximizing profits. Using a smart buoy that continuously measures critical parameters like pH, dissolved oxygen, turbidity, and algae growth enables farmers to monitor water quality in real time. <br><br>Based on this data, our advanced microbial solution can be applied to restore the natural balance of the pond ecosystem, reduce harmful pathogens, and enhance fish and shrimp growth. This integrated approach not only ensures a sustainable and eco-friendly aquaculture practice but also delivers higher yield and profitability."
       button:
         enable : false
         label : "Explore Our Services"
         link : "about/"         
+    # about item loop
+    - image : "images/msgcloud/bwa4.png"
+      subtitle : "Contact us"
+      title : "Talk to our Expert"
+      content : "Water purification needs vary across Sewage Treatment Plants (STPs), Effluent Treatment Plants (ETPs), and Aquaculture systems, and finding the right solution is crucial for sustainable outcomes. <br><br>Our experts specialize in providing tailored recommendations that combine real-time monitoring technologies, such as smart buoys for aquaculture, with our proprietary microbial solutions to effectively treat wastewater, balance aquatic ecosystems, and enhance productivity. <br><br>Whether your goal is environmental compliance, safe water reuse, or maximizing aquaculture profits, our team is here to guide you with the most effective strategies. <br><br>Speak to our experts today on our toll-free number 1800 889 6608 and discover customized water purification solutions designed to meet your unique requirements. </br></br> </br></br> </br></br> </br></br>"
+      button:
+        enable : false
+        label : "Explore Our Services"
+        link : "about/"            
 
 
 
