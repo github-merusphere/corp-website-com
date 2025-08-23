@@ -20,7 +20,7 @@ about:
       title : "Ecolly MicrobialX Compost"
       content : "The Ecolly waste management system leverages Artificial Intelligence (AI), Internet of Things (loT), and Microbial Biotechnology to create an efficient, data-driven, and eco-friendly solid organic waste to compost model. <br><br>
       
-      We Provide an AI powered IoT Device to monitor the Air Quqlity of the Dump Yards and Recommends dosage of our proprietary Microbial Solution to convert the organic waste into compost just in 21 days." 
+      We Provide an AI powered IoT Device to monitor the Air Quality of the Dump Yards and Recommends dosage of our proprietary Microbial Solution to convert the organic waste into compost just in 21 days." 
       button:
         enable : false
         label : "Explore the Service"
