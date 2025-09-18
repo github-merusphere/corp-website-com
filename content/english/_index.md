@@ -3,10 +3,10 @@
 banner:
   enable : true
   bg_image : "images/background/banner.png"
-  title : "We are @ Stall i44, Hall-4, Eco Sustain Expo, Hitex, Hyderabad."
+  title : "Digitalizing Day to Day Business Operations"
   watermark : "Digitalization"
   content : "MeruSphere enhances everyday lives by providing software that digitalizes to improve business growth with latest tools and technologies."
-  image : "images/expo/expo2025.jpeg"
+  image : "images/banner/banner-1.png"
   button:
     enable : false
     label : "Explore"
