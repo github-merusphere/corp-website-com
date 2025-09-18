@@ -79,6 +79,21 @@ hasChildren = true
   parent = "Green Energy"
   name = "Portable Power Generator"
   URL = "gexfinite/"
+  
+[[main]]
+weight = 22
+name = "Data Center Services"
+hasChildren = true
+
+  [[main]]
+  parent = "Data Center Services"
+  name = "Dedicated Server"
+  URL = "computeserver/"  
+ 
+  [[main]]
+  parent = "Data Center Services"
+  name = "AI Compute Server"
+  URL = "aicomputeserver/"  
  
 #[[main]]
 #name = "Blog"
