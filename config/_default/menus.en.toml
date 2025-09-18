@@ -52,7 +52,7 @@ hasChildren = true
   
   [[main]]
   parent = "IT Services"
-  name = "IoT Life Cycle Management"
+  name = "IoT & IT Asset Management"
   URL = "iotmon/"  
   
 [[main]]
