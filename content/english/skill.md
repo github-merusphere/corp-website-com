@@ -22,9 +22,9 @@ about:
       
       This initiative not only enhances individual livelihoods but also strengthens rural economies, reduces migration pressures, and contributes to inclusive growth. Through focused efforts, we aspire to transform rural potential into productive talent, building a stronger and more resilient community." 
       button:
-        enable : false
-        label : "Explore the Service"
-        link : "https://msgcloud.in"
+        enable : true
+        label : "Explore Elitical Education"
+        link : "https://demo.elitical.in"
         
     # about item loop
     - image : "images/skill/skill-online.png"
