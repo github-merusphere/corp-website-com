@@ -94,6 +94,17 @@ hasChildren = true
   parent = "Data Center Services"
   name = "AI Compute Server"
   URL = "aicomputeserver/"  
+  
+[[main]]
+weight = 23
+name = "Skill University"
+hasChildren = true
+
+  [[main]]
+  parent = "Skill University"
+  name = "Elitical Education"
+  URL = "skill/"  
+ 
  
 #[[main]]
 #name = "Blog"
