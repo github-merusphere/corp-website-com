@@ -15,7 +15,7 @@
             {{ if .video_link }}
             <div class="pulse-container">
               <div class="pulse-box">
-                <button class="play-icon icon-center" video-url="{{.video_link}}" data-bs-toggle="modal"
+                <button onclick="window.location.href='{{.video_link}}'" class="play-icon icon-center" video-url="{{.video_link}}" data-bs-toggle="modal"
                   data-bs-target="#videoModal" aria-label="open video modal">
                   <i class="fa fa-play text-secondary fs-5"></i>
                   <svg class="pulse-svg icon-center" viewBox="0 0 50 50" version="1.1"
