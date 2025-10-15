@@ -71,16 +71,6 @@ hasChildren = true
   URL = "ecollymxp/"
   
 [[main]]
-weight = 21
-name = "Green Energy"
-hasChildren = true
-
-  [[main]]
-  parent = "Green Energy"
-  name = "Portable Power Generator"
-  URL = "gexfinite/"
-  
-[[main]]
 weight = 22
 name = "Data Center Services"
 hasChildren = true
@@ -97,13 +87,13 @@ hasChildren = true
   
 [[main]]
 weight = 23
-name = "Skill University"
+name = "Revenue Management"
 hasChildren = true
 
   [[main]]
-  parent = "Skill University"
-  name = "Elitical Education"
-  URL = "skill/"  
+  parent = "Revenue Management"
+  name = "Price Points"
+  URL = "pps/"  
  
  
 #[[main]]
