@@ -38,11 +38,21 @@
             <li class="d-flex mb-4" data-aos="fade-up" data-aos-delay="100">
               <i class="fas fa-map icon-primary"></i>
               <div class="ps-3">
-                <h6 class="text-dark">Address</h6>
+                <h6 class="text-dark">India Location 01</h6>
                 <p>{{ . | markdownify }}</p>
               </div>
             </li>
             {{end }}
+			{{ with site.Params.contact_info.address2 }}
+			<li class="d-flex mb-4" data-aos="fade-up" data-aos-delay="100">
+			  <i class="fas fa-map icon-primary"></i>
+			  <div class="ps-3">
+			    <h6 class="text-dark">India Location 02</h6>
+			    <p>{{ . | markdownify }}</p>
+			  </div>
+			</li>
+			{{end }}
+
           </ul>
         </div>
       </div>
