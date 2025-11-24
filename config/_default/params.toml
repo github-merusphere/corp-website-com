@@ -53,7 +53,8 @@ link = "#"
 
 # contact info
 [contact_info]
-address = "MeruSphere Private Limited,</br> Plot# 88, Phase-3, Kavuri Hills, Madhapur, Hyderabad, Telangana, India"
+address = "MeruSphere Private Limited,</br> Plot# 88, Phase-3, Kavuri Hills, Madhapur, Hyderabad, 500081, Telangana, India"
+address2 = "MeruSphere Private Limited,</br> Flat# G1, Door# 14-32-109/44, Road# 2, Ashok Nagar, Pedagantyada, Gajuwaka,  Visakhapatnam, 530044, Andhra Pradesh, India"
 mobile = "Monday to Friday, 10 AM to 06 PM<br>Tollfree : 1800 889 6608"
 email = "info@merusphere.com"
 website = "https://merusphere.com"
