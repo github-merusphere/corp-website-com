@@ -48,6 +48,6 @@ funfacts:
 
   # funfact item loop
   - name : "Experts"
-    count : "26"  
+    count : "56"  
 
 ---

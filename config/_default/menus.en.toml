@@ -7,70 +7,95 @@ weight = 30
 
 [[main]]
 weight = 10
-name = "Services"
+name = "IT Services"
 hasChildren = true
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Application Development"
   URL = "appdev/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Blockchain Implementation"
   URL = "bcimpl/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "DevOps"
   URL = "devops/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Application Support"
   URL = "appsupport/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Cloud Infra Management"
   URL = "cloudinfra/"
 
   [[main]]
-  parent = "Services"
+  parent = "IT Services"
   name = "Quality Testing & Automation"
   URL = "qta/"
-
+  
+  [[main]]
+  parent = "IT Services"
+  name = "MsgCloud - Bulk Whatsapp"
+  URL = "msgcloud/"
+  
+  [[main]]
+  parent = "IT Services"
+  name = "Stock Market Trading Platform"
+  URL = "stmp/"  
+  
+  [[main]]
+  parent = "IT Services"
+  name = "IoT & IT Asset Management"
+  URL = "iotmon/"  
+  
 [[main]]
 weight = 20
-name = "Products"
+name = "Bio Solutions"
 hasChildren = true
 
   [[main]]
-  parent = "Products"
-  name = "Block-Chain App Development kit"
-  URL = "bcsdk/"
+  parent = "Bio Solutions"
+  name = "Ecolly MicrobialX Compost"
+  URL = "ecollymxc/"
 
   [[main]]
-  parent = "Products"
-  name = "Java Web App Development kit"
-  URL = "jwsdk/"
+  parent = "Bio Solutions"
+  name = "Ecolly MicrobialX Purifier"
+  URL = "ecollymxp/"
+  
+[[main]]
+weight = 22
+name = "Data Center Services"
+hasChildren = true
 
   [[main]]
-  parent = "Products"
-  name = "Flutter App Development kit"
-  URL = "flsdk/"
+  parent = "Data Center Services"
+  name = "Dedicated Server"
+  URL = "computeserver/"  
+ 
+  [[main]]
+  parent = "Data Center Services"
+  name = "AI Compute Server"
+  URL = "aicomputeserver/"  
+  
+[[main]]
+weight = 23
+name = "Revenue Management"
+hasChildren = true
 
   [[main]]
-  parent = "Products"
-  name = "MsgCloud - Bulk Whatsapp"
-  URL = "msgcloud/"
-
-  [[main]]
-  parent = "Products"
-  name = "EmpowrX - Skill Empoweremet Platform"
-  url = "empowrx/"
-
-
+  parent = "Revenue Management"
+  name = "Price Points"
+  URL = "pps/"  
+ 
+ 
 #[[main]]
 #name = "Blog"
 #URL = "blog/"
