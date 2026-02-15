@@ -61,46 +61,6 @@ section {
 .btn-pill:active {
   transform: scale(0.97);
 }
-
-/* ================== VIDEO MODAL ================== */
-.video-modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.7);
-  display: none;
-  z-index: 9999;
-  align-items: center;
-  justify-content: center;
-}
-
-.video-modal.active {
-  display: flex;
-}
-
-.video-modal-content {
-  position: relative;
-  width: 90%;
-  max-width: 900px;
-}
-
-.video-close-btn {
-  position: absolute;
-  top: -40px;
-  right: 0;
-  background: #ffffff;
-  border: none;
-  padding: 6px 12px;
-  font-size: 18px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.video-frame {
-  width: 100%;
-  height: 56.25vw; /* 16:9 */
-  max-height: 80vh;
-  border: none;
-}
 </style>
 
 <section>
@@ -111,7 +71,7 @@ section {
 <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
 
 <div class="resource-header mb-3 mb-md-0">
-    <img src="/images/career/logo-1.png" alt="Ecolly Logo">
+    <img src="/images/mxcresourses/user-guide.png" alt="Ecolly Logo">
     <div>
     <h6 class="mb-1">Ecolly User Manual</h6>
     <p class="text-muted mb-0">Official Documentation | User Guide</p>
@@ -131,7 +91,7 @@ section {
 <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
 
 <div class="resource-header mb-3 mb-md-0">
-    <img src="/images/career/logo-1.png" alt="Ecolly Logo">
+    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
     <div>
     <h6 class="mb-1">Case Study</h6>
     <p class="text-muted mb-0">MicrobialX Compost Case Study</p>
@@ -148,4 +108,3 @@ section {
 
 </div>
 </section>
-
