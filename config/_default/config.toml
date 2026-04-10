@@ -3,7 +3,9 @@ baseURL = "https://merusphere.com"
 title = "MeruSphere Pvt Ltd"
 theme = "agico-hugo"
 # post pagination
-paginate = "6"
+#paginate = "6"
+[pagination]
+pagerSize = 10
 # post excerpt
 summaryLength = "10"
 # google analytics
