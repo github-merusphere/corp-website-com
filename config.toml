@@ -69,3 +69,5 @@ link = "plugins/aos/aos.js"
 link = "plugins/swiper/swiper.min.js"
 [[params.plugins.js]]
 link = "plugins/webfont/webfont-loader-2.js"
+[params]
+social = {}

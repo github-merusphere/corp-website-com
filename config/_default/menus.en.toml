@@ -69,6 +69,11 @@ hasChildren = true
   parent = "Bio Solutions"
   name = "Ecolly MicrobialX Purifier"
   URL = "ecollymxp/"
+
+  [[main]]
+  parent = "Bio Solutions"
+  name = "Ecolly MicrobialX Compost Guide"
+  URL = "ecollymxcresources"
   
 [[main]]
 weight = 22
