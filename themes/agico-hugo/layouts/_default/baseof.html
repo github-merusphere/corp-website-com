@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default `en-US` }}"
-	lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" itemscope itemtype=" http://schema.org/WebPage">
+<html lang="{{ .Site.Language.Locale | default `en-US` }}"
+	lang="{{ with .Site.Language.Locale }}{{ . }}{{ else }}en-US{{ end }}" itemscope itemtype=" http://schema.org/WebPage">
 
 <head>
 	<!-- head (don't cache it) -->
