@@ -106,5 +106,88 @@ section {
 </div>
 </div>
 
+
+<!-- ========= CARD : MicrobialX Compost ========= -->
+<div class="resource-card">
+<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+
+<div class="resource-header mb-3 mb-md-0">
+    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+    <div>
+    <h6 class="mb-1">MicrobialX Compost</h6>
+    <p class="text-muted mb-0">MicrobialX Compost</p>
+    </div>
+</div>
+
+<div class="resource-actions">
+    <a href="/ecollymxcpdf/MicrobialXCompost.pdf" download class="btn-pill">Download</a>
+    <a href="/ecollymxcpdf/MicrobialXCompost.pdf" target="_blank" class="btn-pill">View</a>
+</div>
+
+</div>
+</div>
+
+
+<!-- ========= CARD : MicrobialX Poultry ========= -->
+<div class="resource-card">
+<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+
+<div class="resource-header mb-3 mb-md-0">
+    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+    <div>
+    <h6 class="mb-1">MicrobialX Poultry</h6>
+    <p class="text-muted mb-0">MicrobialX Poultry</p>
+    </div>
+</div>
+
+<div class="resource-actions">
+    <a href="/ecollymxcpdf/MicrobialXPoultry.pdf" download class="btn-pill">Download</a>
+    <a href="/ecollymxcpdf/MicrobialXPoultry.pdf" target="_blank" class="btn-pill">View</a>
+</div>
+
+</div>
+</div>
+
+
+<!-- ========= CARD : MicrobialX Purifier ========= -->
+<div class="resource-card">
+<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+
+<div class="resource-header mb-3 mb-md-0">
+    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+    <div>
+    <h6 class="mb-1">MicrobialX Purifier</h6>
+    <p class="text-muted mb-0">MicrobialX Purifier</p>
+    </div>
+</div>
+
+<div class="resource-actions">
+    <a href="/ecollymxcpdf/MicrobialXPurifier.pdf" download class="btn-pill">Download</a>
+    <a href="/ecollymxcpdf/MicrobialXPurifier.pdf" target="_blank" class="btn-pill">View</a>
+</div>
+
+</div>
+</div>
+
+<!-- ========= CARD : Lab Reports ========= -->
+<div class="resource-card">
+<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+
+<div class="resource-header mb-3 mb-md-0">
+    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+    <div>
+    <h6 class="mb-1">Chennai Lab Report</h6>
+    <p class="text-muted mb-0">MicrobialX Purifier</p>
+    </div>
+</div>
+
+<div class="resource-actions">
+    <a href="/ecollymxcpdf/MoinabadManureLabResult.pdf" download class="btn-pill">Download</a>
+    <a href="/ecollymxcpdf/MoinabadManureLabResult.pdf" target="_blank" class="btn-pill">View</a>
+</div>
+
+</div>
+</div>
+
 </div>
 </section>
