@@ -189,5 +189,55 @@ section {
 </div>
 </div>
 
+
+<!-- ========= CARD : MicrobialX Leaflets ========= -->
+<div class="resource-card">
+	<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+		<div class="resource-header mb-3 mb-md-0">
+		    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+		    <div>
+		    <h6 class="mb-1">Leaflet</h6>
+		    <p class="text-muted mb-0">MicrobialX Compost</p>
+		    </div>
+		</div>
+		<div class="resource-actions">
+		    <a href="/ecollymxcpdf/MicrobialXCompostLeaflet.pdf" download class="btn-pill">Download</a>
+		    <a href="/ecollymxcpdf/MicrobialXCompostLeaflet.pdf" target="_blank" class="btn-pill">View</a>
+		</div>
+	</div>
+</div>
+
+<div class="resource-card">
+	<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+		<div class="resource-header mb-3 mb-md-0">
+		    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+		    <div>
+		    <h6 class="mb-1">Leaflet</h6>
+		    <p class="text-muted mb-0">MicrobialX Poultry</p>
+		    </div>
+		</div>
+		<div class="resource-actions">
+		    <a href="/ecollymxcpdf/MicrobialXPoultryLeaflet.pdf" download class="btn-pill">Download</a>
+		    <a href="/ecollymxcpdf/MicrobialXPoultryLeaflet.pdf" target="_blank" class="btn-pill">View</a>
+		</div>
+	</div>
+</div>
+
+<div class="resource-card">
+	<div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+		<div class="resource-header mb-3 mb-md-0">
+		    <img src="/images/mxcresourses/file-case.png" alt="Ecolly Logo">
+		    <div>
+		    <h6 class="mb-1">Leaflet</h6>
+		    <p class="text-muted mb-0">MicrobialX Purifier</p>
+		    </div>
+		</div>
+		<div class="resource-actions">
+		    <a href="/ecollymxcpdf/MicrobialXPurifierLeaflet.pdf" download class="btn-pill">Download</a>
+		    <a href="/ecollymxcpdf/MicrobialXPurifierLeaflet.pdf" target="_blank" class="btn-pill">View</a>
+		</div>
+	</div>
+</div>
+
 </div>
 </section>
